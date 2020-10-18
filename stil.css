@@ -1,6 +1,7 @@
 *{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
 }
 
 html,body {
@@ -23,14 +24,18 @@ html,body {
     text-align: center;
     margin: auto;
     margin-top: 70px;
-    width: 500px;
+    width: 15%;
     font-size: 50px;
     color: black;
-    
+    text-shadow: 3px 3px 3px gray;
+    border: solid 4px darkorange;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .head_tekst:hover{
-    color: darkorange;
+    background-color: darkorange;
+    text-shadow: 3px 3px 3px white;
     transition: 0.5s;
 }
 
@@ -68,14 +73,16 @@ li a:hover{
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 70px;
     margin-top: 30px;
 }
 
 .bilde{
-    width: 500px;
-    height: 700px;
+    width: 350px;
+    height: 550px;
+    border: double darkorange 8px;
+    border-radius: 30px;
 }
 
 .bilde_og_tekst{
@@ -83,7 +90,7 @@ li a:hover{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 28px;
 }
 .tekst{
     text-align: center;
@@ -91,11 +98,15 @@ h2{
     border-radius: 40px;
     color: white;
     background-color: black;
-    top: 275px;
-    left: 100px;
-    width: 300px;
-    height: 150px;
+    top: 250px;
+    left: 75px;
+    width: 200px;
+    height: 175px;
     text-shadow: 1px 1px 1px gray;
+}
+
+.tekst:hover{  
+    border: solid 3px darkorange;
 }
 
 .forside-tekst{
@@ -138,7 +149,7 @@ footer {
 }
 
 .mellomrom{
-    padding-right: 35px;
+    padding-right: 10px;
 }
 
 .oppskrift_header{
