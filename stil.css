@@ -25,7 +25,13 @@ html,body {
     margin-top: 70px;
     width: 500px;
     font-size: 50px;
+    color: black;
     
+}
+
+.head_tekst:hover{
+    color: darkorange;
+    transition: 0.5s;
 }
 
 ul{
@@ -40,16 +46,24 @@ ul li{
 ul a{
     display:inline-block;
     padding:10px;
-    text-decoration: none;
     color: black;
     margin: 15px;
     margin-top: 80px;
     font-size: 25px;
 }
 
+a{
+    text-decoration: none;
+}
+
 li a:hover{
     background-color: darkorange;
     text-shadow: 3px 3px 3px darkgoldenrod;
+    transition: 1s;
+}
+
+.active{
+    border-bottom: solid 4px black;
 }
 
 .content {
@@ -59,7 +73,7 @@ li a:hover{
     margin-top: 30px;
 }
 
-.forside_bilde{
+.bilde{
     width: 500px;
     height: 700px;
 }
@@ -71,7 +85,7 @@ li a:hover{
 h2{
     font-size: 30px;
 }
-.forside_tekst{
+.tekst{
     text-align: center;
     position: absolute;
     border-radius: 40px;
@@ -84,7 +98,7 @@ h2{
     text-shadow: 1px 1px 1px gray;
 }
 
-.tekst{
+.forside-tekst{
     text-align: center;
     font-size: 30px;
 }
@@ -108,3 +122,28 @@ footer {
     margin-top: 40px;
 }
 
+.content_omOss{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.img_omOss{
+    width: 450px;
+}
+
+.tekst_omOss{
+    width: 40%;
+    margin-top: 150px;
+}
+
+.mellomrom{
+    padding-right: 35px;
+}
+
+.oppskrift_header{
+    margin-left: 150px;
+    font-size: 50px;
+    border-left: solid 8px darkorange;
+    padding-left: 20px;
+}
