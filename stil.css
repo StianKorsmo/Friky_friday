@@ -83,6 +83,7 @@ li a:hover{
     height: 550px;
     border: double darkorange 8px;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 .bilde_og_tekst{
